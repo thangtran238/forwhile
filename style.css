@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.product-group1,.product-group2 {
+  display: flex;
+  align-items: center;
+}
+
+.mostsell,.highlight{
+  justify-content: space-evenly;
+}
+
+.title {
+  line-height: 50px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.title h1{
+  color: #DDAC55;  
+}
+
+.title p {
+  color: rgba(0, 0, 0, 0.7)
+
+}
+
+.mostsell img {
+  width: 150px;
+}
+.highlight img {
+  width: 250px;
+  object-fit: cover;
+}
+.item {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body {
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item a { 
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #DDAC55;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.15s;
+  font-weight: 300;
+}
+.item a:hover {
+  background-color: black;
+}
+.card-text,.card-title {
+  text-align: center;
+  margin: 8px 0;
+}
+.card-text {
+  color: rgba(0, 0, 0, 0.7);
+}
+.card-title {
+  width: 200px;
+  color: #DDAC55;
+  font-size : 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
